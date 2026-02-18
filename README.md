@@ -9,10 +9,10 @@
 Customer churn is one of the most significant expenses for telecommunications companies. This project is a complete, end-to-end Machine Learning solution designed to predict which customers are at high risk of canceling their service. 
 
 Instead of just building a model in a notebook, this project features a **fully deployed architecture**:
-1. **Machine Learning Pipeline:** A robust Random Forest classifier built with `scikit-learn`.
-2. **REST API Backend:** A lightning-fast API built with `FastAPI` to serve real-time predictions.
-3. **Interactive Frontend:** A sleek web dashboard built with `Streamlit` for business users to input customer data and instantly view churn risk.
-4. **Model Explainability:** SHAP (SHapley Additive exPlanations) integration to ensure the AI's decisions are transparent and interpretable.
+1. Machine Learning Pipeline: A robust Random Forest classifier built with `scikit-learn`.
+2. REST API Backend:** A lightning-fast API built with `FastAPI` to serve real-time predictions.
+3. Interactive Frontend: A sleek web dashboard built with `Streamlit` for business users to input customer data and instantly view churn risk.
+4. Model Explainability: SHAP (SHapley Additive exPlanations) integration to ensure the AI's decisions are transparent and interpretable.
 
 ## 🏗️ Project Architecture
 ```text
@@ -29,7 +29,7 @@ customer churn ai/
 │   └── train.py           
 └── requirements.txt       # Environment dependencies
 
-git clone [https://github.com/your-username/customer-churn-ai.git](https://github.com/your-username/customer-churn-ai.git)
+git clone  origin https://github.com/su763/customer-churn-prediction-.git
 cd "customer churn ai"
 pip install -r requirements.txt
 
@@ -45,7 +45,7 @@ A browser window will automatically open with the interactive dashboard.
 Model Explainability (SHAP)
 To ensure the business can trust the model, SHAP values were calculated to determine exactly which features drive customer churn.
 
-(Note: Add your SHAP summary plot image to the models/ folder and it will display here!)
+
 
 Key business insights discovered:
 
@@ -56,3 +56,4 @@ Tenure: Newer customers are significantly more likely to leave than long-term su
 Monthly Charges: Higher monthly charges strongly correlate with a higher risk of cancellation.
 
 author:MD SUHAYL SEKANDER 
+
